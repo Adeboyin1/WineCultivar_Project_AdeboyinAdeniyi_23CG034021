@@ -2,44 +2,6 @@ Name: Adeniyi Adeboyin Toluwalope
 Matric Number: 23CG034021
 Machine Learning Algorithm Used: Random Forest Classifier
 Model Persistence Method Used: Joblib
-Live URL: [Your deployed application URL - e.g., https://your-app.streamlit.app]
-GitHub Repository Link: [Your GitHub repository URL - e.g., https://github.com/yourusername/WineCultivar_Project]
+Live URL: https://winecultivar-project-adeboyinadeniyi.onrender.com
+GitHub Repository Link: https://github.com/Adeboyin1/WineCultivar_Project_AdeboyinAdeniyi_23CG034021
 
-================================================================================
-DEPLOYMENT INSTRUCTIONS
-================================================================================
-
-FOR STREAMLIT CLOUD DEPLOYMENT:
-1. Push your code to GitHub
-2. Go to https://streamlit.io/cloud
-3. Sign in with GitHub
-4. Click "New app"
-5. Select your repository and branch
-6. Set main file path to "app.py"
-7. Click "Deploy"
-
-FOR RENDER.COM DEPLOYMENT:
-1. Push your code to GitHub
-2. Go to https://render.com
-3. Sign up/Login
-4. Click "New +" → "Web Service"
-5. Connect your GitHub repository
-6. Configure:
-   - Name: wine-cultivar-predictor
-   - Environment: Python 3
-   - Build Command: pip install -r requirements.txt
-   - Start Command: streamlit run app.py --server.port=$PORT --server.address=0.0.0.0
-7. Click "Create Web Service"
-
-================================================================================
-PROJECT STRUCTURE
-================================================================================
-/WineCultivar_Project_yourName_matricNo/
-├── app.py (Streamlit or Flask version)
-├── requirements.txt
-├── WineCultivar_hosted_webGUI_link.txt (this file)
-├── /model/
-    ├── model_building.py
-    ├── wine_cultivar_model.pkl
-    ├── scaler.pkl
-    └── feature_names.pkl
