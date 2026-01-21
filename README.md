@@ -48,7 +48,7 @@ This project implements a **Random Forest Classifier** to predict wine cultivars
 
 1. **Clone the repository**
 ```bash
-git clone <your-github-repo-url>
+git clone (https://github.com/Adeboyin1/WineCultivar_Project_AdeboyinAdeniyi_23CG034021)
 cd WineCultivar_Project_AdeboyinAdeniyi_23CG034021
 ```
 
