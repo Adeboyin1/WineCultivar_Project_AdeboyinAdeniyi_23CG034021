@@ -32,8 +32,6 @@ This project implements a **Random Forest Classifier** to predict wine cultivars
 │   ├── wine_cultivar_model.pkl    # Trained model
 │   ├── scaler.pkl                 # Feature scaler
 │   └── feature_names.pkl          # Selected features
-├── /static/                        # (Flask only)
-│   └── style.css
 └── /templates/                     # (Flask only)
     └── index.html
 ```
